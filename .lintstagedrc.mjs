@@ -6,7 +6,7 @@ const buildEslintCommand = (filenames) =>
     .join(' --file ')}`
 
 const config = {
-  '*.{js,jsx,ts,tsx}': [buildEslintCommand],
+  '**/*.{js,jsx,ts,tsx}': [buildEslintCommand, 'bun format'],
 }
 
 export default config

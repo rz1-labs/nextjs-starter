@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Image from 'next/image'
 
 export default function Home() {
   return (
@@ -8,13 +8,13 @@ export default function Home() {
           className="dark:invert"
           src="/next.svg"
           alt="Next.js logo"
-          width={180}
+          width={181}
           height={38}
           priority
         />
         <ol className="font-mono list-inside list-decimal text-sm/6 text-center sm:text-left">
           <li className="mb-2 tracking-[-.01em]">
-            Get started by editing{" "}
+            Get started by editing{' '}
             <code className="bg-black/[.05] dark:bg-white/[.06] font-mono font-semibold px-1 py-0.5 rounded">
               app/page.tsx
             </code>
@@ -99,5 +99,5 @@ export default function Home() {
         </a>
       </footer>
     </div>
-  );
+  )
 }
